@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_finished_build.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:id="@+id/textViewPCIntro"
+        android:layout_width="362dp"
+        android:layout_height="161dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="189dp"
+        android:layout_marginEnd="21dp"
+        android:text="ПРОВЕРКА СОВМЕСТИМОСТИ КОМПЛЕКТУЮЩИХ КОМПЬЮТЕРА"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="357dp"
+        android:layout_height="105dp"
+        android:layout_below="@+id/textViewPCIntro"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="21dp"
+        android:backgroundTint="#9457C2"
+        android:textColor="@color/white"
+        android:text="СОБРАТЬ КОМПЛЕКТАЦИЮ"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

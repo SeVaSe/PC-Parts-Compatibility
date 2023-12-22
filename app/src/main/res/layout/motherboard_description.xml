@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- motherboard_description.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:id="@+id/textViewNameEL"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="30dp"
+        android:textColor="@color/white"
+        android:text="МАТЕРИНСКАЯ ПЛАТА"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewMotherboardDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="434dp"
+        android:layout_below="@+id/textViewNameEL"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:text="Описание материнской платы"
+        android:textColor="@color/white"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/buttonNextMotherboard"
+        android:layout_width="195dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/textViewMotherboardDescription"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="108dp"
+        android:backgroundTint="#9457C2"
+        android:text="Перейти дальше"
+        android:textColor="@color/white" />
+</RelativeLayout>
